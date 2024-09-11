@@ -1,0 +1,4 @@
+deque_test: deque.h node.h deque_test.cpp
+	g++ deque_test.cpp -o deque_test
+clean:
+	-rm deque_test
